@@ -1,0 +1,37 @@
+# Ignore all files in the node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore lock files
+package-lock.json
+yarn.lock
